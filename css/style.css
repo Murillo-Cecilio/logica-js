@@ -5,4 +5,5 @@ body {
 .texto-principal {
     margin-bottom: 25px;
     font-size: 25px;
+    font-weight: bold;
 }
