@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
+.texto-principal {
     margin-bottom: 25px;
     font-size: 25px;
 }
