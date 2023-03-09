@@ -14,3 +14,12 @@ body {
     font-style: italic;
     font-weight: 500;
 }
+
+.link-menu {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    border: 1px solid greenyellow;
+    border-radius: 25px;
+    padding:1em;
+    background-color: greenyellow;
+}
