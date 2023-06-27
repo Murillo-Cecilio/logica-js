@@ -2,14 +2,15 @@
 
 <script>
     function pulaLinha() {
-        document.write("<br>");
+        // pulando duas linhas
+        document.write("<br><hr><br>");
     }
 
-    function mostra(texto) {
-        document.write(texto);
+    function mostra(frase) {
+        document.write("<big>" + frase + "</big>");
         pulaLinha();
     }
-
+    
     var ano = 2023;
 
     //document.write("Flávio tem " + (ano - 1977) + " anos");
