@@ -15,11 +15,12 @@
         return peso / (altura * altura);
     }
 
-    var alturaInformada = 1.82
-    var pesoInformado = 115
+    var nome = prompt("Informe seu nome");
+    var alturaInformada = prompt(nome + ", informe sua altura");
+    var pesoInformado = prompt(nome + ", Informe seu peso");
 
     var imc = calculaImc(alturaInformada, pesoInformado);
 
-    document.write("O IMC calculado é " + imc);
+    document.write(nome+ ", o IMC é " + imc);
 
 </script>
