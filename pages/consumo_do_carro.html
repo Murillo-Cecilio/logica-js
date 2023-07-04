@@ -3,7 +3,16 @@
 <h3>Álcool ou Gasolina?</h3>
 
 <script>
+    function pulaLinha() {
 
+        document.write("<br><hr><br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
     var tanque = 48;
 
     var caminhoComGasolina = 514;
@@ -12,10 +21,8 @@
     var caminhoComAlcool = 365;
     var consumoDeAlcool = caminhoComAlcool / tanque;
 
-    document.write("O consumo de Gasolina é " + (consumoDeGasolina).toFixed(2) + " km/L");
+    mostra("O consumo de Gasolina é " + (consumoDeGasolina).toFixed(2) + " km/L");
 
-    document.write("<br>");
-
-    document.write("O consumo de Álcool é " + (consumoDeAlcool).toFixed(2) + " km/L");
+    mostra("O consumo de Álcool é " + (consumoDeAlcool).toFixed(2) + " km/L");
 
 </script>
